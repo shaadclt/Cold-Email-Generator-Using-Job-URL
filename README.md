@@ -1,7 +1,7 @@
 # Cold Mail Generator
 
 ## Overview
-Cold Mail Generator is a Streamlit-based web application that automates the process of extracting job postings from career pages and generating personalized cold emails for job applications. The application leverages OpenAI's LLM through LangChain and integrates with ChromaDB for portfolio link retrieval.
+Cold Mail Generator is a Streamlit-based web application that automates the process of extracting job postings from career pages and generating personalized cold emails for job applications. The application leverages Llama 3.3 through Groq, LangChain and integrates with ChromaDB for portfolio link retrieval.
 
 ## Features
 - **Job Extraction**: Parses job postings from company career pages.
@@ -22,13 +22,13 @@ Cold Mail Generator is a Streamlit-based web application that automates the proc
 ### Prerequisites
 - Python 3.8+
 - `pip` package manager
-- OpenAI Groq API key
+- Groq API key
 
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/cold-mail-generator.git
-   cd cold-mail-generator
+   git clone https://github.com/shaadclt/Cold-Email-Generator-Using-Job-URL.git
+   cd Cold-Email-Generator-Using-Job-URL
    ```
 2. Install dependencies:
    ```sh
@@ -41,7 +41,7 @@ Cold Mail Generator is a Streamlit-based web application that automates the proc
    ```
 4. Run the Streamlit app:
    ```sh
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 ## Project Structure
@@ -49,10 +49,11 @@ Cold Mail Generator is a Streamlit-based web application that automates the proc
 ├── chain.py          # LangChain logic for job extraction & email generation
 ├── portfolio.py      # ChromaDB integration for portfolio retrieval
 ├── utils.py          # Text cleaning utilities
-├── app.py            # Streamlit app
+├── main.py            # Streamlit app
 ├── requirements.txt  # Required dependencies
 ├── .env.example      # Environment variable example file
 ├── README.md         # Project documentation
+├── LICENSE.txt       # MIT License
 ├── vectorstore/  # Persistent ChromaDB storage
 └── resource/
     ├── portfolio.csv # Portfolio data
