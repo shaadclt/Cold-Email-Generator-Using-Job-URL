@@ -70,5 +70,5 @@ Cold Mail Generator is a Streamlit-based web application that automates the proc
 Feel free to fork this repository and contribute by submitting pull requests.
 
 ## License
-This project is licensed under the [MIT License](LICENSE.txt).
+This project is licensed under the [MIT License](LICENSE).
 
