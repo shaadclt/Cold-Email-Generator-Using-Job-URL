@@ -3,6 +3,11 @@
 ## Overview
 Cold Mail Generator is a Streamlit-based web application that automates the process of extracting job postings from career pages and generating personalized cold emails for job applications. The application leverages Llama 3.3 through Groq, LangChain and integrates with ChromaDB for portfolio link retrieval.
 
+## Architecture Diagram
+
+![image](https://github.com/user-attachments/assets/db546f30-5964-47a5-a622-af8ed26a3c6e)
+
+
 ## Features
 - **Job Extraction**: Parses job postings from company career pages.
 - **Portfolio Integration**: Matches relevant portfolio links to job descriptions.
